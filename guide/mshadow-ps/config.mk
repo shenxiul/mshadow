@@ -22,7 +22,7 @@ USE_CUDA_PATH = NONE
 #
 # choose the version of blas you want to use
 # can be: mkl, blas, atlas, openblas, apple
-USE_BLAS = blas
+USE_BLAS = apple
 #
 # add path to intel library, you may need it
 # for MKL, if you did not add the path to enviroment variable
@@ -35,6 +35,6 @@ PS_PATH = ../../../parameter_server/
 PS_THIRD_PATH = NONE
 
 # whether compile with rabit allreduce
-USE_RABIT_PS = 1
+USE_RABIT_PS = 0
 RABIT_PATH = ../../rabit
 
